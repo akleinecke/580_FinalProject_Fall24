@@ -52,7 +52,7 @@ def convert(input_folder, output_image_file, output_label_file):
 
 # Usage
 input_folder = "./image_files/digits/"
-output_folder
+output_folder = "./train_data/"
 output_image_file = os.path.join(output_folder, "Group5.Digits.Images.idx3-ubyte")
 output_label_file = os.path.join(output_folder, "Group5.Digits.Labels.idx1-ubyte")
 convert(input_folder, output_image_file, output_label_file)
